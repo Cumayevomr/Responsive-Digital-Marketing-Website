@@ -31,3 +31,21 @@ ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
   delay: 1000,
 });
+
+ScrollReveal().reveal(".service__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+ScrollReveal().reveal(".service__btn", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
+
+ScrollReveal().reveal(".about__container .section__header", {
+  ...scrollRevealOption,
+});
+ScrollReveal().reveal(".about__list li", {
+  ...scrollRevealOption,
+  delay: 500,
+  interval: 500,
+});
